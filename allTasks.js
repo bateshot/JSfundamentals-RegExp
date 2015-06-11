@@ -37,7 +37,7 @@ String.prototype.bindAttrib = function (str, options) {
 			cont = options[value];
 			return '';
 		} 
-		//Works for every standard or custom attribute you supply!
+		//Should work for every standard or custom attribute you supply!
 		else {
 			return type + '="' + options[value] + '"';
 		}
